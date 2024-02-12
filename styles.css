@@ -1038,6 +1038,7 @@ p{
         padding-left: 20px;
     }
     .step_text p{
+        width: 200px;
         margin: 0;
         text-align: start;
     }
