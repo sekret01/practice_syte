@@ -6,7 +6,6 @@ const slides = Array.from(slider.querySelectorAll('.perfume_list'));
 const slideCount = slides.length;
 let slideIndex = 0;
 const pageWidth = document.documentElement.scrollWidth
-alert(pageWidth)
 
 // Устанавливаем обработчики событий для кнопок
 prevButton.addEventListener('click', showPreviousSlide);
