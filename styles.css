@@ -1111,8 +1111,12 @@ p{
         width: 300px;
     }
     .scroll_item{
+        opacity: 1;
         align-items: center;
         padding: 10px 0;
+    }
+    .scroll_item:hover{
+        box-shadow: none;
     }
     .item_img{
         align-items: center;
@@ -1137,6 +1141,8 @@ p{
 }
 .best_sellers_block{
     width: 350px;
+    margin: 0 auto;
+    padding-top: 30px;
 }
 
 
@@ -1148,11 +1154,27 @@ p{
         width: 360px;
         overflow: hidden;
     }
+    .all_perfume{
+        margin: 10px auto 0 auto;
+        display: flex;
+    
+    }
+
+    .perfume_list{
+        width: 359px;
+        text-align: center;
+        margin: 0 0;
+    }
+
     .btns_pos{
         margin: 0 auto;
         width: 300px;
         display: flex;
         justify-content: space-between;
+    }
+    .perfume_img:hover img{
+        box-shadow: none;
+        transition: none;
     }
     
     .buttons_pas{
