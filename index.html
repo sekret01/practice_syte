@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        
+        <title>Beauty.</title>
+    </head>
+    <body>
+        <div class="page">
+            <header class="header">
+                <div class="head_all">
+                    <div class="logo">
+                        <p>Beauty.</p>
+                    </div>
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="login">
+                        <div class="login_text">
+                            <a href="#">Login</a> / <a href="#">Register</a>
+                        </div>
+                        <div class="loupe">
+                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.16699 0.666626C12.307 0.666626 15.667 4.02663 15.667 8.16663C15.667 12.3066 12.307 15.6666 8.16699 15.6666C4.02699 15.6666 0.666992 12.3066 0.666992 8.16663C0.666992 4.02663 4.02699 0.666626 8.16699 0.666626ZM8.16699 14C11.3895 14 14.0003 11.3891 14.0003 8.16663C14.0003 4.94329 11.3895 2.33329 8.16699 2.33329C4.94366 2.33329 2.33366 4.94329 2.33366 8.16663C2.33366 11.3891 4.94366 14 8.16699 14ZM13.6783 12.8216L17.5953 16.4158L16.4162 17.595L12.5 14L13.6783 12.8216Z" />
+                            </svg>
+                        </div>
+                        <div class="basket">
+                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1542_270)">
+                                <path d="M18.8591 6.25001H10.1333L6.07192 0.645172C5.91108 0.376355 5.68321 0.228506 5.38833 0.201624C5.09344 0.174742 4.81196 0.268828 4.54389 0.483882C4.14177 0.913989 4.11497 1.3441 4.46347 1.7742L7.64017 6.25001H1.72909C1.24655 6.25001 0.837737 6.41802 0.502642 6.75404C0.167548 7.09006 0 7.48657 0 7.94356V8.83066C0 9.58334 0.348499 10.0941 1.0455 10.3629L3.41797 17.6613C3.5252 18.0376 3.73966 18.3804 4.06135 18.6895C4.38304 18.9987 4.74495 19.1532 5.14706 19.1532H15.4412C15.8433 19.1532 16.2052 18.9987 16.5269 18.6895C16.8486 18.3804 17.063 18.0376 17.1703 17.6613L19.5427 10.4436C20.2397 10.1747 20.5882 9.66399 20.5882 8.9113V8.0242C20.5882 7.51345 20.4207 7.09006 20.0856 6.75404C19.7505 6.41802 19.3417 6.25001 18.8591 6.25001ZM1.72909 7.94356H8.92693L9.5301 8.75001C9.58372 8.75001 9.61052 8.77689 9.61052 8.83066H1.72909V7.94356ZM15.5216 17.1774V17.2581C15.5216 17.285 15.5082 17.3118 15.4814 17.3387C15.4546 17.3656 15.4412 17.3925 15.4412 17.4194H5.22748C5.17387 17.4194 5.14706 17.3656 5.14706 17.2581L2.93543 10.5242H17.6528L15.5216 17.1774ZM11.0581 8.83066C11.2458 8.50808 11.3396 8.21238 11.3396 7.94356H18.8591V8.83066H11.0581ZM5.9915 15.8871C6.01831 16.0753 6.12554 16.2366 6.31319 16.371C6.50084 16.5054 6.6885 16.5726 6.87615 16.5726H7.03699C7.25146 16.5188 7.4257 16.3844 7.55974 16.1694C7.69378 15.9543 7.72059 15.7393 7.64017 15.5242L6.79573 12.0968C6.74211 11.8817 6.60807 11.707 6.39361 11.5726C6.17915 11.4382 5.96469 11.4113 5.75023 11.4919C5.53577 11.5457 5.36152 11.6801 5.22748 11.8952C5.09344 12.1102 5.06664 12.3118 5.14706 12.5L5.9915 15.8871ZM13.5512 16.5726H13.7121C13.8997 16.5726 14.0874 16.5054 14.275 16.371C14.4627 16.2366 14.5699 16.0753 14.5967 15.8871L15.4412 12.4194C15.4948 12.2043 15.4613 11.9893 15.3406 11.7742C15.22 11.5592 15.0525 11.4382 14.838 11.4113C14.275 11.3038 13.9265 11.5054 13.7925 12.0161L12.9481 15.4436C12.7872 15.9812 12.9883 16.3575 13.5512 16.5726ZM10.2941 16.5726C10.8571 16.5726 11.1386 16.2769 11.1386 15.6855V12.2581C11.1386 11.6936 10.8571 11.4113 10.2941 11.4113C9.73116 11.4113 9.44968 11.6936 9.44968 12.2581V15.6855C9.44968 16.2769 9.73116 16.5726 10.2941 16.5726Z"  stroke="white" stroke-width="0.3"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1542_270">
+                                <rect width="20.5882" height="20" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="count">
+                              0
+                            </span>
+                        </div>
+                        <div class="dop_menu">
+                            <svg width="19" height="16" viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="0.375" y="3" width="12" height="2" />
+                                <rect x="0.375" y="8" width="18" height="2"/>
+                                <rect x="0.375" y="13" width="12" height="2" />
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+            <section class="first_block">
+                <section class="content">
+                    <div class="container">
+                        <div class="content_background">
+                            <div class="content_box">
+                                <div class="content_text">
+                                    <p id="skin">Skin Care Product</p>
+                                    <h1>Bringing Out The Beauty In You</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                                </div>
+                                <div class="content_btn">
+                                    <a href="#best_sellers">Shop Now</a>
+                                </div>
+                            </div>            
+                        </div>
+                    </div>
+                    <div class="decor_1">
+                        <img src="images/cont_decor-.png" alt="" class="img_decor_1">
+                    </div>
+                </section>
+                <section class="service">
+                    <div class="container">
+                        <div class="block">
+                            <div class="block_img"></div>           
+                            <div class="block_text_place">
+                                <div class="block_text">
+                                    <p class="micro_header">Introducing</p>
+                                    <h2>Beauty Service For You</h2>
+                                    <p id="block_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <div class="all_interests">
+                                        <div class="part">
+                                            <p class="interest">97%</p>
+                                            <p class="description">Elasticity Increase</p>
+                                        </div>
+                                        <div class="part">
+                                            <p class="interest">85%<p>
+                                            <p class="description">Moisture Increase</p>
+                                        </div>
+                                        <div class="part">
+                                            <p class="interest">83%</p>
+                                            <p class="description">Wrinkel Decrease</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <a href="#" class="service_btn_a">
+                                        <div class="service_btn">
+                                            <p>Try it Free</p>
+                                        </div>
+                                    </a>
+                                    
+
+
+                                    <!-- <div class="service_btn">
+                                        <a href="#">Try it Free</a>
+                                    </div>
+                                     -->
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section class="steps">
+                <div class="container">
+                    <div class="steps_block">
+                        <div class="steps_header">
+                            <p class="micro_header">How Does It Work</p>
+                            <h2>4 Steps For Your Skin Care</h2>
+                            <p class="header_text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <div class="four_steps">
+                            <div class="step">
+                                <div class="figure">
+                                    <img src="images/step_1.png" alt="">
+                                    <div class="number_of_step">
+                                        <p>1</p>
+                                    </div>
+                                </div>
+                                <div class="step_text">
+                                    <h3>Wash</h3>
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="figure">
+                                    <img src="images/step_2.png" alt="">
+                                    <div class="number_of_step">
+                                        <p>2</p>
+                                    </div>
+                                </div>
+                                <div class="step_text">
+                                    <h3>Make</h3>
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="figure">
+                                    <img src="images/step_3.png" alt="">
+                                    <div class="number_of_step">
+                                        <p>3</p>
+                                    </div>
+                                </div>
+                                <div class="step_text">
+                                    <h3>Treat</h3>
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="figure">
+                                    <img src="images/step_4.png" alt="">
+                                    <div class="number_of_step">
+                                        <p>4</p>
+                                    </div>
+                                </div>
+                                <div class="step_text">
+                                    <h3>Natural</h3>
+                                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </section>
+            <siction class="ingredients">
+                <div class="container">
+                    <div class="ingredients_block">
+                        <div class="ing_text">
+                            <p class="micro_header">ingredients</p>
+                            <h2>Product Information</h2>
+                            <p class="int_text_p">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="scroller">
+                            <div class="scroller_img">
+                                <img src="images/scroller_img.png" alt="">
+                            </div>
+                            <div class="scroll_block" id="scroll_block">
+                                <div class="all_scroll_items">
+                                    <div class="scroll_item">
+                                        <div class="item_img">
+                                            <img src="images/scroller/scroll_day_1.png" alt="">
+                                        </div>
+                                        <div class="item_text">
+                                            <h4>Day 1</h4>
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                        </div>
+                                    </div>
+                                    <div class="scroll_item centre_scroll_item">
+                                        <div class="item_img">
+                                            <img src="images/scroller/scroll_day_2.png" alt="">
+                                        </div>
+                                        <div class="item_text">
+                                            <h4>Day 2</h4>
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                        </div>
+                                    </div>
+                                    <div class="scroll_item">
+                                        <div class="item_img">
+                                            <img src="images/scroller/scroll_day_3.png" alt="">
+                                        </div>
+                                        <div class="item_text">
+                                            <h4>Day 3</h4>
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="scroll_item">
+                                        <div class="item_img">
+                                            <img src="images/scroller/scroll_day_1.png" alt="">
+                                        </div>
+                                        <div class="item_text">
+                                            <h4>Day 1</h4>
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                        </div>
+                                    </div>
+                                    <div class="scroll_item centre_scroll_item">
+                                        <div class="item_img">
+                                            <img src="images/scroller/scroll_day_2.png" alt="">
+                                        </div>
+                                        <div class="item_text">
+                                            <h4>Day 2</h4>
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                        </div>
+                                    </div>
+                                    <div class="scroll_item">
+                                        <div class="item_img">
+                                            <img src="images/scroller/scroll_day_3.png" alt="">
+                                        </div>
+                                        <div class="item_text">
+                                            <h4>Day 3</h4>
+                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <!-- <div class="scroll_line">
+                                    <div class="circle"></div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </siction>
+            <section class="best_sellers" id="best_sellers">
+                <div class="container">
+<!-- ===================================================================================== -->
+                    <main>
+
+                        <div class="best_sellers_block_background">
+                            <div class="best_sellers_block">
+                                <div class="best_sellers_text">
+                                    <p class="micro_header">Order Now.</p>
+                                    <h2>Our Best Sellers</h2>
+                                </div>
+
+
+                                <div class="window">
+
+
+                                    <div class="all_perfume">
+                                        <div class="perfume_list">
+                                            <div class="perfume_img">
+                                                <img src="images/perfume/perfume_1.png" alt="">
+                                            </div>
+                                            <div class="perfume_info">
+                                                <p>Clear Cell mattifying moisturizer for oily skin</p>
+                                                <div class="rating">
+                                                    <img src="images/perfume/rating.png" alt="">
+                                                    <p>5.0</p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>$199,99</p>
+                                                </div>
+                                                <div class="perfume_btn">
+                                                    <a href="#">Select options</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="perfume_list">
+                                            <div class="perfume_img">
+                                                <img src="images/perfume/perfume_2.2.png" alt="">
+                                            </div>
+                                            <div class="perfume_info">
+                                                <p>Intense brightening exfoliating powder</p>
+                                                <div class="rating">
+                                                    <img src="images/perfume/rating.png" alt="">
+                                                    <p>5.0</p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>$74,52 - $903,20 </p>
+                                                </div>
+                                                <div class="perfume_btn">
+                                                    <a href="#">Select options</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="perfume_list">
+                                            <div class="perfume_img">
+                                                <img src="images/perfume/perfume_3.png" alt="">
+                                            </div>
+                                            <div class="perfume_info">
+                                                <p>Medicated acne masque</p>
+                                                <div class="rating">
+                                                    <img src="images/perfume/rating.png" alt="">
+                                                    <p>5.0</p>
+                                                </div>
+                                                <div class="price">
+                                                    <p>$118,10</p>
+                                                </div>
+                                                <div class="perfume_btn add_to_cart">
+                                                    <a href="#">Add to cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> 
+
+
+                                </div>
+                                <div class="btns_pos">
+                                    <button class="buttons_pas" id="prev">←</button>
+                                    <button class="buttons_pas" id="next">→</button>
+                                  </div> 
+
+
+
+                                                             
+                            </div>
+                            <div class="page_decor_img" id="decor_2">
+                                <img src="images/decor/page_decor_2.png" alt="">
+                            </div>
+                        </div>  
+                        <script src="script.js"></script>
+                    </main>             
+<!-- ======================================================================================= -->
+                </div>
+            </section>
+            <div class="page_decor_img" id="decor_1">
+                <img src="/images/decor/page_decor_1.png" alt="">
+            </div>
+            <footer>
+                <div class="container">
+                    <div class="footer">
+                        <div class="footer_block">
+                            <div class="footer_text">
+                                <div class="footer_text_block">
+                                    <p id="footer_logo">Beauty.</p>
+                                    <p class="phone">(88) - 1234 45678</p>
+                                    <p class="footer_info">184 Yellow. Moden Main Road, Jatrabary New York 1236</p>
+                                </div>
+                                <div class="footer_links_block">
+                                    <div class="header_of_list">
+                                        <p>Userful Links</p>
+                                    </div>
+                                    <div class="list_of_links">
+                                        <div class="column">
+                                            <a href="#">About</a>
+                                            <a href="#">News</a>
+                                            <a href="#">Partners</a>
+                                        </div>
+                                        <div class="column column_2">
+                                            <a href="#">Delivery and payment</a>
+                                            <a href="#">Terms of sale</a>
+                                            <a href="#">Contacts</a>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="footer_icon_block">
+                                    <div class="header_of_list">
+                                        <p>Follow Us.</p>
+                                    </div>
+                                    <div class="icon_block">
+                                        <a href="#">
+                                            <img src="images/icons/icon_facebook.png" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/icons/icon_youtube.png" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/icons/icon_twitter.png" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="images/icons/icon_instagram.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="span"></div>
+                        <div class="footer_last_info">
+                            <p>Copyright © 2022 Beauty. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            
+        </div>
+    </body>
+</html>
